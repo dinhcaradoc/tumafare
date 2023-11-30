@@ -1,0 +1,23 @@
+{
+  "name": "tumafare",
+  "version": "1.0.0",
+  "description": "A simple method for fare payment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tuma",
+    "fare",
+    "paybill"
+  ],
+  "author": "dinhcaradoc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.1",
+    "ussd-builder": "^1.2.5",
+    "ussd-menu-builder": "^1.2.0"
+  }
+}
