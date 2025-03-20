@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const vehicle = new mongoose.Schema({
+const vehicleSchema = new mongoose.Schema({
     fleetNumber: {
         type: String,
         required: true
@@ -14,3 +14,5 @@ const vehicle = new mongoose.Schema({
         required: false
     }
 })
+
+module.exports = mongoose.model('Vehicle', vehicleSchema);

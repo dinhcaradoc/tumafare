@@ -13,8 +13,14 @@ const paymentInfo = new mongoose.Schema({
         type: String,
         required: true
     },
+    mpesaref: {
+        type: String,
+        required: true
+    },
     sacco: {
         type: String,
         required: false
     }
 })
+
+module.exports = mongoose.model('Payment', paymentInfo);
