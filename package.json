@@ -14,9 +14,14 @@
   "author": "dinhcaradoc",
   "license": "ISC",
   "dependencies": {
+    "africastalking": "^0.6.4",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "mongoose": "^8.0.2",
+    "intasend-node": "^1.0.8",
+    "mongoose": "^8.2.1",
     "nodemon": "^3.0.1",
+    "redis": "^4.6.13",
     "ussd-builder": "^1.2.5",
     "ussd-menu-builder": "^1.2.0"
   }
